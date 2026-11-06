@@ -1,0 +1,26 @@
+{
+  "schema": "codex_pet_visual_state_contract_v20261105",
+  "scene_key": "working",
+  "aliases": [
+    "thinking",
+    "coding",
+    "working",
+    "思考中",
+    "编程中",
+    "工作中"
+  ],
+  "persistent_scenes": [
+    "idle",
+    "working"
+  ],
+  "transitions": {
+    "idle_to_working": "instant-cut; start working sequence once",
+    "working_to_idle": "instant-cut; stop or suspend working sequence",
+    "thinking_to_coding": "do not cut scene; do not reset 30-second animation clock",
+    "coding_to_thinking": "do not cut scene; do not reset 30-second animation clock"
+  },
+  "task_type_affects_visual_only_if_explicitly_designed": false,
+  "accepted_by_firmware": false,
+  "source": "/CodexPet/PROJECT_INDEX.md read 2026-11-05",
+  "notes": "V42 review is still unapproved; no real state machine code is included."
+}
