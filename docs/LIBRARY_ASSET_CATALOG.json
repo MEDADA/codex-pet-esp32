@@ -2,9 +2,9 @@
   "project": "CodexPet",
   "inventory_date": "2026-11-06",
   "source": "ChatGPT Library /CodexPet/",
-  "warning": "An entry in this catalog does NOT imply the binary file is uploaded to GitHub.",
-  "file_count": 193,
-  "total_bytes": 424422757,
+  "warning": "Library inventory only: a listed binary is NOT necessarily present on GitHub. Check repository tree.",
+  "file_count": 212,
+  "total_bytes": 467267583,
   "files": [
     {
       "path": "integration/CODEX_PET_GITHUB_MIGRATION_STATUS_20261106.md",
@@ -777,6 +777,82 @@
     {
       "path": "background/codex_pet_background_v1_review.zip",
       "bytes": 4161463
+    },
+    {
+      "path": "idle/IDLE_V3_0_STATUS.md",
+      "bytes": 1996
+    },
+    {
+      "path": "idle/codex_pet_idle_v3_0_review.zip",
+      "bytes": 7537614
+    },
+    {
+      "path": "coding/codex_pet_coding_v32_preview.html",
+      "bytes": 469337
+    },
+    {
+      "path": "coding/codex_pet_coding_v32_RELEASE_NOTES.md",
+      "bytes": 2995
+    },
+    {
+      "path": "coding/codex_pet_coding_v32_comparison.jpg",
+      "bytes": 143101
+    },
+    {
+      "path": "coding/codex_pet_coding_v32_preview_mobile.mp4",
+      "bytes": 41571
+    },
+    {
+      "path": "coding/codex_pet_coding_v32_preview_466.png",
+      "bytes": 126079
+    },
+    {
+      "path": "coding/codex_pet_coding_v32_20261104_review.zip",
+      "bytes": 3176968
+    },
+    {
+      "path": "idle/codex_pet_idle_v2_9_review.zip",
+      "bytes": 6205449
+    },
+    {
+      "path": "idle/IDLE_V2_9_STATUS.md",
+      "bytes": 2554
+    },
+    {
+      "path": "coding/codex_pet_coding_v31_20261104_review.zip",
+      "bytes": 4370201
+    },
+    {
+      "path": "coding/codex_pet_coding_v31_preview_466.png",
+      "bytes": 148355
+    },
+    {
+      "path": "coding/codex_pet_coding_v31_RELEASE_NOTES.md",
+      "bytes": 2381
+    },
+    {
+      "path": "coding/codex_pet_coding_v31_preview_mobile.mp4",
+      "bytes": 40952
+    },
+    {
+      "path": "idle/codex_pet_idle_v2_8_review.zip",
+      "bytes": 5112182
+    },
+    {
+      "path": "idle/IDLE_V2_8_STATUS.md",
+      "bytes": 1601
+    },
+    {
+      "path": "idle/codex_pet_idle_v1_handoff.zip",
+      "bytes": 13686027
+    },
+    {
+      "path": "shared/approved_front_master.png",
+      "bytes": 1773591
+    },
+    {
+      "path": "idle/CODEX_TASK.md",
+      "bytes": 1872
     }
   ]
 }
