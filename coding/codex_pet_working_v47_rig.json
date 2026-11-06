@@ -1,0 +1,260 @@
+{
+  "version": "V47",
+  "status": "review",
+  "workstream": "working",
+  "screen": [
+    466,
+    466
+  ],
+  "approved_character_sha256": "62186f7e349d25df7103e48949e3f5b6bea53f1b059a5c952d7f956537f5fbd3",
+  "loop_seconds": 24.0,
+  "preview_fps": 8,
+  "source_v46_character_unchanged": true,
+  "motion_model": "2D per-strand 3-joint skinning/inverse UV remap, with silhouette and foreground protection",
+  "rendering_note": "Seven independent hair chain influence fields, plus tail. A single connected source texture ensures seams stay closed. Source PNG strata are editable, but not independently rotating occlusion-complete art.",
+  "groups": [
+    {
+      "id": "hair_fringe",
+      "root": [
+        252,
+        151
+      ],
+      "mid": [
+        240,
+        174
+      ],
+      "tip": [
+        245,
+        208
+      ],
+      "crop_bounds_xyxy": [
+        125,
+        103,
+        375,
+        272
+      ],
+      "crop_file": "assets/hair/hair_fringe_crop.png",
+      "visible_layer": "assets/hair/hair_fringe_466.png",
+      "occluded_regions_completed": false,
+      "rig_status": "constrained_2d_mesh",
+      "motion_degrees_root_mid_tip_scaled": [
+        0.396,
+        0.264
+      ]
+    },
+    {
+      "id": "hair_left_face",
+      "root": [
+        174,
+        188
+      ],
+      "mid": [
+        153,
+        230
+      ],
+      "tip": [
+        139,
+        264
+      ],
+      "crop_bounds_xyxy": [
+        115,
+        165,
+        203,
+        274
+      ],
+      "crop_file": "assets/hair/hair_left_face_crop.png",
+      "visible_layer": "assets/hair/hair_left_face_466.png",
+      "occluded_regions_completed": false,
+      "rig_status": "constrained_2d_mesh",
+      "motion_degrees_root_mid_tip_scaled": [
+        1.188,
+        0.726
+      ]
+    },
+    {
+      "id": "hair_right_face",
+      "root": [
+        351,
+        189
+      ],
+      "mid": [
+        365,
+        226
+      ],
+      "tip": [
+        375,
+        256
+      ],
+      "crop_bounds_xyxy": [
+        347,
+        165,
+        378,
+        255
+      ],
+      "crop_file": "assets/hair/hair_right_face_crop.png",
+      "visible_layer": "assets/hair/hair_right_face_466.png",
+      "occluded_regions_completed": false,
+      "rig_status": "constrained_2d_mesh",
+      "motion_degrees_root_mid_tip_scaled": [
+        -0.99,
+        0.66
+      ]
+    },
+    {
+      "id": "hair_left_root",
+      "root": [
+        180,
+        226
+      ],
+      "mid": [
+        162,
+        272
+      ],
+      "tip": [
+        143,
+        304
+      ],
+      "crop_bounds_xyxy": [
+        102,
+        170,
+        211,
+        290
+      ],
+      "crop_file": "assets/hair/hair_left_root_crop.png",
+      "visible_layer": "assets/hair/hair_left_root_466.png",
+      "occluded_regions_completed": false,
+      "rig_status": "constrained_2d_mesh",
+      "motion_degrees_root_mid_tip_scaled": [
+        1.073,
+        0.66
+      ]
+    },
+    {
+      "id": "hair_left_outer",
+      "root": [
+        147,
+        264
+      ],
+      "mid": [
+        106,
+        324
+      ],
+      "tip": [
+        84,
+        382
+      ],
+      "crop_bounds_xyxy": [
+        51,
+        242,
+        136,
+        418
+      ],
+      "crop_file": "assets/hair/hair_left_outer_crop.png",
+      "visible_layer": "assets/hair/hair_left_outer_466.png",
+      "occluded_regions_completed": false,
+      "rig_status": "constrained_2d_mesh",
+      "motion_degrees_root_mid_tip_scaled": [
+        2.178,
+        1.567
+      ]
+    },
+    {
+      "id": "hair_left_inner",
+      "root": [
+        178,
+        268
+      ],
+      "mid": [
+        153,
+        323
+      ],
+      "tip": [
+        142,
+        362
+      ],
+      "crop_bounds_xyxy": [
+        119,
+        274,
+        199,
+        355
+      ],
+      "crop_file": "assets/hair/hair_left_inner_crop.png",
+      "visible_layer": "assets/hair/hair_left_inner_466.png",
+      "occluded_regions_completed": false,
+      "rig_status": "constrained_2d_mesh",
+      "motion_degrees_root_mid_tip_scaled": [
+        1.766,
+        1.122
+      ]
+    },
+    {
+      "id": "hair_left_tips",
+      "root": [
+        155,
+        328
+      ],
+      "mid": [
+        139,
+        378
+      ],
+      "tip": [
+        159,
+        405
+      ],
+      "crop_bounds_xyxy": [
+        124,
+        343,
+        160,
+        419
+      ],
+      "crop_file": "assets/hair/hair_left_tips_crop.png",
+      "visible_layer": "assets/hair/hair_left_tips_466.png",
+      "occluded_regions_completed": false,
+      "rig_status": "constrained_2d_mesh",
+      "motion_degrees_root_mid_tip_scaled": [
+        -1.864,
+        1.485
+      ]
+    }
+  ],
+  "head": {
+    "pivot": [
+      250,
+      239
+    ],
+    "motion": "micro tilt only, no side yaw; eyes/beret travel together"
+  },
+  "tail": {
+    "root": [
+      354.0,
+      344.0
+    ],
+    "mid": [
+      376,
+      358
+    ],
+    "tip": [
+      390.0,
+      371.0
+    ],
+    "motion": "independent small sway"
+  },
+  "limits": {
+    "max_hair_displacement_px_measured": 2.185,
+    "max_tested_hair_displacement_px": 4.5,
+    "hidden_hair_fully_painted": false,
+    "large_head_turn_supported": false,
+    "true_live2d_rig": false
+  },
+  "state_contract": {
+    "idle": "idle",
+    "thinking": "working",
+    "coding": "working",
+    "working": "working",
+    "thinking_to_coding": "preserve_timeline",
+    "idle_to_working": "instant_cut"
+  },
+  "terminal": "internal synthetic code lines loop 24s; not live IDE state",
+  "source_art": "assets/source/character_v45_unchanged.png",
+  "editable_ora": "source/working_v47_editable.ora"
+}
