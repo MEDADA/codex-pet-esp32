@@ -1,0 +1,303 @@
+{
+  "project": "CodexPet",
+  "workstream": "WORKING",
+  "version": "V45",
+  "status": "review",
+  "screen": {
+    "width": 466,
+    "height": 466
+  },
+  "state_contract": {
+    "thinking": "working",
+    "coding": "working",
+    "working": "working",
+    "switch_thinking_coding": "continue_timeline",
+    "idle_working": "instant_cut"
+  },
+  "approved_visual": "silver-white hair, clean fringe with no X hairpin, black cat beret, sparkly silver long sleeves, black tiered skirt and black lace-ruffle boots, both hands holding transparent blue terminal",
+  "master_source": {
+    "file": "source/approved_pose_original_1254.png",
+    "sha256": "43e9a8f8698e2a4f9d15c95f8ed4e88bdc3fb3cd279b0462ee792517b237a83d",
+    "revision": "user approved image prior turn, not patch-corrected V44 image"
+  },
+  "coordinate_system": "466x466 image pixels; left/top=0; anchor positions initial manual inspection",
+  "pivot_points": {
+    "root": [
+      277,
+      342
+    ],
+    "head_neck": [
+      274,
+      236
+    ],
+    "hat": [
+      267,
+      130
+    ],
+    "eye_left": [
+      236,
+      204
+    ],
+    "eye_right": [
+      307,
+      193
+    ],
+    "gaze_left": [
+      235,
+      201
+    ],
+    "gaze_right": [
+      307,
+      194
+    ],
+    "shoulder_left": [
+      210,
+      262
+    ],
+    "shoulder_right": [
+      348,
+      260
+    ],
+    "elbow_left": [
+      200,
+      301
+    ],
+    "elbow_right": [
+      357,
+      300
+    ],
+    "wrist_left": [
+      212,
+      291
+    ],
+    "wrist_right": [
+      346,
+      291
+    ],
+    "terminal": [
+      284,
+      278
+    ],
+    "tail_root": [
+      357,
+      358
+    ],
+    "tail_mid": [
+      391,
+      354
+    ],
+    "tail_tip": [
+      378,
+      374
+    ],
+    "boot_left": [
+      265,
+      379
+    ],
+    "boot_right": [
+      322,
+      377
+    ]
+  },
+  "motion_proposal": {
+    "head_angle_deg": [
+      -1.2,
+      1.2
+    ],
+    "head_nod_px": [
+      -1.0,
+      1.4
+    ],
+    "blink_time_sec": 0.17,
+    "gaze_range_px": [
+      -3.0,
+      3.0
+    ],
+    "terminal_scroll_px_per_sec": 8,
+    "tail_tip_deg": [
+      -2.5,
+      2.5
+    ],
+    "arms_motion": "disabled",
+    "legs_motion": "disabled",
+    "status": "initial suggested safe ranges; motion not final proof of full bone segmentation"
+  },
+  "rig_coverage": {
+    "independently_reconstructable_pixels": "all visible pixels segmented into disjoint technical partitions",
+    "head": "soft-mesh proof only; no completed hidden underlay or 3D yaw",
+    "eyelids": "guides only; should be redrawn from the new approved master, do not reuse V43 eyelid textures",
+    "tail": "visible raster cutout only; underlay needed for full pivot",
+    "terminal": "scroll graphics can be drawn independently within two UI windows; device glass itself stays fixed",
+    "hands": "remain static to protect approved pose"
+  },
+  "parts": [
+    {
+      "name": "tail",
+      "bbox": [
+        357,
+        316,
+        409,
+        380
+      ],
+      "pixel_count": 1019,
+      "stage": "visible_partition_only",
+      "occluded_anatomy_complete": false
+    },
+    {
+      "name": "hair_back",
+      "bbox": [
+        57,
+        176,
+        205,
+        413
+      ],
+      "pixel_count": 13258,
+      "stage": "visible_partition_only",
+      "occluded_anatomy_complete": false
+    },
+    {
+      "name": "skirt",
+      "bbox": [
+        140,
+        311,
+        390,
+        415
+      ],
+      "pixel_count": 11869,
+      "stage": "visible_partition_only",
+      "occluded_anatomy_complete": false
+    },
+    {
+      "name": "boots",
+      "bbox": [
+        231,
+        375,
+        299,
+        419
+      ],
+      "pixel_count": 2697,
+      "stage": "visible_partition_only",
+      "occluded_anatomy_complete": false
+    },
+    {
+      "name": "legs",
+      "bbox": [
+        221,
+        317,
+        359,
+        376
+      ],
+      "pixel_count": 7265,
+      "stage": "visible_partition_only",
+      "occluded_anatomy_complete": false
+    },
+    {
+      "name": "body_remainder",
+      "bbox": [
+        179,
+        45,
+        408,
+        418
+      ],
+      "pixel_count": 1585,
+      "stage": "visible_partition_only",
+      "occluded_anatomy_complete": false
+    },
+    {
+      "name": "hat_ears",
+      "bbox": [
+        123,
+        34,
+        370,
+        181
+      ],
+      "pixel_count": 16549,
+      "stage": "visible_partition_only",
+      "occluded_anatomy_complete": false
+    },
+    {
+      "name": "hair_front",
+      "bbox": [
+        121,
+        109,
+        372,
+        268
+      ],
+      "pixel_count": 15599,
+      "stage": "visible_partition_only",
+      "occluded_anatomy_complete": false
+    },
+    {
+      "name": "face_region",
+      "bbox": [
+        197,
+        143,
+        365,
+        240
+      ],
+      "pixel_count": 10258,
+      "stage": "visible_partition_only",
+      "occluded_anatomy_complete": false
+    },
+    {
+      "name": "eye_left",
+      "bbox": [
+        210,
+        176,
+        265,
+        227
+      ],
+      "pixel_count": 1954,
+      "stage": "visible_partition_only",
+      "occluded_anatomy_complete": false
+    },
+    {
+      "name": "eye_right",
+      "bbox": [
+        280,
+        163,
+        341,
+        219
+      ],
+      "pixel_count": 2294,
+      "stage": "visible_partition_only",
+      "occluded_anatomy_complete": false
+    },
+    {
+      "name": "hand_left",
+      "bbox": [
+        189,
+        268,
+        235,
+        325
+      ],
+      "pixel_count": 2150,
+      "stage": "visible_partition_only",
+      "occluded_anatomy_complete": false
+    },
+    {
+      "name": "hand_right",
+      "bbox": [
+        331,
+        268,
+        375,
+        327
+      ],
+      "pixel_count": 2084,
+      "stage": "visible_partition_only",
+      "occluded_anatomy_complete": false
+    },
+    {
+      "name": "terminal",
+      "bbox": [
+        209,
+        237,
+        360,
+        321
+      ],
+      "pixel_count": 9446,
+      "stage": "visible_partition_only",
+      "occluded_anatomy_complete": false
+    }
+  ]
+}
