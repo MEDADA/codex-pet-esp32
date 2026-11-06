@@ -1,0 +1,3 @@
+# Background V4 Candidate - Reduced Cost Sprite Motion
+
+Status: review. Version: 4.0. The previously accepted static light look is represented with offline pre-baked atmospheric light; no pixel shader, full-screen gradients, Gaussian blur or large transform at runtime. Working V43 geometry used for reference (not Coding V33). Idle / Working are two persistent scenes; Success remains an event-only overlay. This release is visual-only; Codex must test real hardware. Files and ZIP paths are ASCII-only. Root PROJECT_INDEX is not changed.
