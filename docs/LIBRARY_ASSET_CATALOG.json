@@ -1,0 +1,782 @@
+{
+  "project": "CodexPet",
+  "inventory_date": "2026-11-06",
+  "source": "ChatGPT Library /CodexPet/",
+  "warning": "An entry in this catalog does NOT imply the binary file is uploaded to GitHub.",
+  "file_count": 193,
+  "total_bytes": 424422757,
+  "files": [
+    {
+      "path": "integration/CODEX_PET_GITHUB_MIGRATION_STATUS_20261106.md",
+      "bytes": 2180
+    },
+    {
+      "path": "coding/codex_pet_working_v47_editable.ora",
+      "bytes": 786486
+    },
+    {
+      "path": "coding/codex_pet_working_v47_RELEASE_NOTES.md",
+      "bytes": 1082
+    },
+    {
+      "path": "coding/codex_pet_working_v47_rig.json",
+      "bytes": 5557
+    },
+    {
+      "path": "coding/codex_pet_working_v47_QA_REPORT.json",
+      "bytes": 1732
+    },
+    {
+      "path": "coding/codex_pet_working_v47_hair_closeup.jpg",
+      "bytes": 63475
+    },
+    {
+      "path": "coding/codex_pet_working_v47_rig_anchors_466.png",
+      "bytes": 208791
+    },
+    {
+      "path": "coding/codex_pet_working_v47_keypose_review.jpg",
+      "bytes": 130415
+    },
+    {
+      "path": "coding/codex_pet_working_v47_mobile_preview.html",
+      "bytes": 3184765
+    },
+    {
+      "path": "coding/codex_pet_working_v47_24s.webp",
+      "bytes": 768306
+    },
+    {
+      "path": "coding/codex_pet_working_v47_24s.gif",
+      "bytes": 4321749
+    },
+    {
+      "path": "coding/codex_pet_working_v47_device_candidates_20261106.zip",
+      "bytes": 1229922
+    },
+    {
+      "path": "coding/codex_pet_working_v47_art_handoff_20261106.zip",
+      "bytes": 12441814
+    },
+    {
+      "path": "idle/CODEX_IDLE_V316_HANDOFF.md",
+      "bytes": 5146
+    },
+    {
+      "path": "idle/IDLE_V3_16_STATUS.md",
+      "bytes": 3975
+    },
+    {
+      "path": "idle/idle_v3_16_interactive.html",
+      "bytes": 1885123
+    },
+    {
+      "path": "idle/codex_pet_idle_v3_16_repair_review.zip",
+      "bytes": 12613835
+    },
+    {
+      "path": "coding/codex_pet_working_v46_hair_layers.ora",
+      "bytes": 545243
+    },
+    {
+      "path": "coding/codex_pet_working_v46_RELEASE_NOTES.md",
+      "bytes": 836
+    },
+    {
+      "path": "coding/codex_pet_working_v46_rig.json",
+      "bytes": 7518
+    },
+    {
+      "path": "coding/codex_pet_working_v46_rig_anchors_466.png",
+      "bytes": 208717
+    },
+    {
+      "path": "coding/codex_pet_working_v46_mobile_preview.html",
+      "bytes": 2835742
+    },
+    {
+      "path": "coding/codex_pet_working_v46_hair_motion_keyposes.jpg",
+      "bytes": 136940
+    },
+    {
+      "path": "coding/codex_pet_working_v46_hair_layers_sheet.jpg",
+      "bytes": 40646
+    },
+    {
+      "path": "coding/codex_pet_working_v46_hair_12s.gif",
+      "bytes": 2690181
+    },
+    {
+      "path": "coding/codex_pet_working_v46_20261106_review.zip",
+      "bytes": 9664932
+    },
+    {
+      "path": "coding/codex_pet_working_v46_device_candidates_20261106.zip",
+      "bytes": 42202
+    },
+    {
+      "path": "coding/codex_pet_working_v46_hair_12s.webp",
+      "bytes": 476930
+    },
+    {
+      "path": "idle/codex_pet_idle_v3_15_frame_audit_20261106.zip",
+      "bytes": 3172073
+    },
+    {
+      "path": "idle/IDLE_V3_15_FRAME_AUDIT_20261106.md",
+      "bytes": 6913
+    },
+    {
+      "path": "coding/codex_pet_working_v45_mobile_preview.html",
+      "bytes": 5580955
+    },
+    {
+      "path": "coding/codex_pet_working_v45_rig.json",
+      "bytes": 6002
+    },
+    {
+      "path": "coding/codex_pet_working_v45_RELEASE_NOTES.md",
+      "bytes": 1027
+    },
+    {
+      "path": "coding/codex_pet_working_v45_segmentation_review.jpg",
+      "bytes": 152588
+    },
+    {
+      "path": "coding/codex_pet_working_v45_30s.webp",
+      "bytes": 2326822
+    },
+    {
+      "path": "coding/codex_pet_working_v45_device_candidates_20261106.zip",
+      "bytes": 363479
+    },
+    {
+      "path": "coding/codex_pet_working_v45_20261106_review.zip",
+      "bytes": 15326285
+    },
+    {
+      "path": "coding/codex_pet_working_v45_neutral_466.png",
+      "bytes": 239228
+    },
+    {
+      "path": "idle/idle_v3_15_interactive.html",
+      "bytes": 1971254
+    },
+    {
+      "path": "idle/IDLE_V3_15_STATUS.md",
+      "bytes": 1720
+    },
+    {
+      "path": "idle/codex_pet_idle_v3_15_expression_rig_review.zip",
+      "bytes": 5628222
+    },
+    {
+      "path": "idle/IDLE_V3_14_STATUS.md",
+      "bytes": 1607
+    },
+    {
+      "path": "idle/codex_pet_idle_v3_14_head_hair_review.zip",
+      "bytes": 3053634
+    },
+    {
+      "path": "idle/idle_v3_14_interactive.html",
+      "bytes": 1126360
+    },
+    {
+      "path": "idle/IDLE_V3_13_STATUS.md",
+      "bytes": 2230
+    },
+    {
+      "path": "idle/idle_v3_13_interactive.html",
+      "bytes": 2167922
+    },
+    {
+      "path": "idle/codex_pet_idle_v3_13_interaction_review.zip",
+      "bytes": 8708071
+    },
+    {
+      "path": "idle/IDLE_V3_12_STATUS.md",
+      "bytes": 1705
+    },
+    {
+      "path": "idle/idle_v3_12_interactive.html",
+      "bytes": 539472
+    },
+    {
+      "path": "idle/codex_pet_idle_v3_12_soft_tail_review.zip",
+      "bytes": 7854253
+    },
+    {
+      "path": "idle/idle_v3_11_interactive.html",
+      "bytes": 774902
+    },
+    {
+      "path": "idle/IDLE_V3_11_STATUS.md",
+      "bytes": 1215
+    },
+    {
+      "path": "idle/codex_pet_idle_v3_11_root_seam_review.zip",
+      "bytes": 6375359
+    },
+    {
+      "path": "idle/IDLE_V3_10_STATUS.md",
+      "bytes": 1185
+    },
+    {
+      "path": "idle/codex_pet_idle_v3_10_tail_root_review.zip",
+      "bytes": 5213503
+    },
+    {
+      "path": "idle/idle_v3_10_interactive.html",
+      "bytes": 827419
+    },
+    {
+      "path": "idle/idle_v3_9_interactive.html",
+      "bytes": 7640054
+    },
+    {
+      "path": "idle/IDLE_V3_9_STATUS.md",
+      "bytes": 1051
+    },
+    {
+      "path": "idle/codex_pet_idle_v3_9_interaction_review.zip",
+      "bytes": 22560824
+    },
+    {
+      "path": "idle/IDLE_V3_8_STATUS.md",
+      "bytes": 884
+    },
+    {
+      "path": "idle/codex_pet_idle_v3_8_motion_integration_review.zip",
+      "bytes": 9594090
+    },
+    {
+      "path": "idle/idle_v3_8_interactive.html",
+      "bytes": 875248
+    },
+    {
+      "path": "idle/codex_pet_idle_v3_7_tail_root_interactions_review.zip",
+      "bytes": 7074973
+    },
+    {
+      "path": "idle/idle_v3_7_interactive.html",
+      "bytes": 784130
+    },
+    {
+      "path": "idle/IDLE_V3_7_STATUS.md",
+      "bytes": 2307
+    },
+    {
+      "path": "background/BACKGROUND_V5_RELEASE_NOTES.md",
+      "bytes": 717
+    },
+    {
+      "path": "background/codex_pet_background_v5_motion.mp4",
+      "bytes": 159982
+    },
+    {
+      "path": "background/codex_pet_background_v5_comparison.jpg",
+      "bytes": 143973
+    },
+    {
+      "path": "background/codex_pet_background_v5_preview.html",
+      "bytes": 867846
+    },
+    {
+      "path": "background/codex_pet_background_v5_review.zip",
+      "bytes": 4418645
+    },
+    {
+      "path": "idle/codex_pet_idle_v3_6_tail_rig_review.zip",
+      "bytes": 9028674
+    },
+    {
+      "path": "idle/idle_v3_6_preview.html",
+      "bytes": 818420
+    },
+    {
+      "path": "idle/IDLE_V3_6_STATUS.md",
+      "bytes": 2227
+    },
+    {
+      "path": "coding/codex_pet_working_v44_preview_466.png",
+      "bytes": 238884
+    },
+    {
+      "path": "coding/codex_pet_working_v44_30s.webp",
+      "bytes": 1980244
+    },
+    {
+      "path": "coding/codex_pet_working_v44_consistency_review.jpg",
+      "bytes": 227315
+    },
+    {
+      "path": "coding/codex_pet_working_v44_README.md",
+      "bytes": 1295
+    },
+    {
+      "path": "coding/codex_pet_working_v44_review_20261105.zip",
+      "bytes": 6126891
+    },
+    {
+      "path": "background/codex_pet_background_v4_comparison.jpg",
+      "bytes": 129046
+    },
+    {
+      "path": "background/BACKGROUND_V4_RELEASE_NOTES.md",
+      "bytes": 540
+    },
+    {
+      "path": "background/codex_pet_background_v4_preview.html",
+      "bytes": 915111
+    },
+    {
+      "path": "background/codex_pet_background_v4_review.zip",
+      "bytes": 3858709
+    },
+    {
+      "path": "idle/idle_v3_5_preview.html",
+      "bytes": 771513
+    },
+    {
+      "path": "idle/IDLE_V3_5_STATUS.md",
+      "bytes": 2484
+    },
+    {
+      "path": "idle/codex_pet_idle_v3_5_tail_motion_review.zip",
+      "bytes": 4810979
+    },
+    {
+      "path": "idle/idle_v3_4_interactive.html",
+      "bytes": 740159
+    },
+    {
+      "path": "idle/codex_pet_idle_v3_4_garment_tail_review.zip",
+      "bytes": 4999623
+    },
+    {
+      "path": "idle/IDLE_V3_4_STATUS.md",
+      "bytes": 1124
+    },
+    {
+      "path": "idle/IDLE_V3_3_STATUS.md",
+      "bytes": 1865
+    },
+    {
+      "path": "idle/idle_v3_3_interactive.html",
+      "bytes": 1096618
+    },
+    {
+      "path": "idle/codex_pet_idle_v3_3_layer_separation_review.zip",
+      "bytes": 10112981
+    },
+    {
+      "path": "idle/codex_pet_idle_v3_2_hair_breath_review.zip",
+      "bytes": 6334789
+    },
+    {
+      "path": "idle/IDLE_V3_2_STATUS.md",
+      "bytes": 1671
+    },
+    {
+      "path": "idle/idle_v3_1_rig_lab.html",
+      "bytes": 187211
+    },
+    {
+      "path": "states/SUCCESS_V1_SPEC.md",
+      "bytes": 5485
+    },
+    {
+      "path": "coding/codex_pet_working_v43_RELEASE_NOTES.md",
+      "bytes": 3043
+    },
+    {
+      "path": "coding/codex_pet_working_v43_handoff_manifest.json",
+      "bytes": 1210
+    },
+    {
+      "path": "coding/codex_pet_working_v43_FINAL_QA.json",
+      "bytes": 1016
+    },
+    {
+      "path": "coding/codex_pet_working_v43_blink_before_after.jpg",
+      "bytes": 70935
+    },
+    {
+      "path": "coding/codex_pet_working_v43_mobile_preview.html",
+      "bytes": 3142614
+    },
+    {
+      "path": "coding/codex_pet_working_v43_eight_pose_review.jpg",
+      "bytes": 176797
+    },
+    {
+      "path": "coding/codex_pet_working_v43_art_handoff_20261105.zip",
+      "bytes": 14791465
+    },
+    {
+      "path": "coding/codex_pet_working_v43_30s_mobile.gif",
+      "bytes": 2662593
+    },
+    {
+      "path": "coding/codex_pet_working_v43_device_candidates_20261105.zip",
+      "bytes": 3658276
+    },
+    {
+      "path": "coding/codex_pet_working_v43_30s_mobile.webp",
+      "bytes": 2109264
+    },
+    {
+      "path": "coding/codex_pet_coding_v42_working_state_contract.json",
+      "bytes": 832
+    },
+    {
+      "path": "coding/codex_pet_coding_v42_RELEASE_NOTES.md",
+      "bytes": 1221
+    },
+    {
+      "path": "coding/codex_pet_coding_v42_manifest.json",
+      "bytes": 5405
+    },
+    {
+      "path": "coding/codex_pet_coding_v42_eyes_head_qa.jpg",
+      "bytes": 72042
+    },
+    {
+      "path": "coding/codex_pet_coding_v42_eyelid_atlas_qa.jpg",
+      "bytes": 77720
+    },
+    {
+      "path": "coding/codex_pet_coding_v42_dirty_update_comparison.jpg",
+      "bytes": 133831
+    },
+    {
+      "path": "coding/codex_pet_coding_v42_mobile_preview.html",
+      "bytes": 2277047
+    },
+    {
+      "path": "coding/codex_pet_coding_v42_30s_mobile.webp",
+      "bytes": 1161508
+    },
+    {
+      "path": "coding/codex_pet_coding_v42_20261105_review.zip",
+      "bytes": 8145165
+    },
+    {
+      "path": "coding/codex_pet_coding_v42_device_candidates.zip",
+      "bytes": 559871
+    },
+    {
+      "path": "PROJECT_INDEX.md",
+      "bytes": 3410
+    },
+    {
+      "path": "coding/codex_pet_coding_v41_RELEASE_NOTES.md",
+      "bytes": 823
+    },
+    {
+      "path": "coding/codex_pet_coding_v41_manifest.json",
+      "bytes": 5568
+    },
+    {
+      "path": "coding/codex_pet_coding_v41_mobile_preview.html",
+      "bytes": 3667604
+    },
+    {
+      "path": "coding/codex_pet_coding_v41_20261105_review.zip",
+      "bytes": 8787861
+    },
+    {
+      "path": "coding/codex_pet_coding_v41_asset_handoff_review.jpg",
+      "bytes": 176610
+    },
+    {
+      "path": "coding/codex_pet_coding_v41_device_candidates.zip",
+      "bytes": 702176
+    },
+    {
+      "path": "coding/codex_pet_coding_v40_RELEASE_NOTES.md",
+      "bytes": 1950
+    },
+    {
+      "path": "coding/codex_pet_coding_v40_rig.json",
+      "bytes": 5964
+    },
+    {
+      "path": "coding/codex_pet_coding_v40_layers.ora",
+      "bytes": 1494541
+    },
+    {
+      "path": "coding/codex_pet_coding_v40_face_detail.jpg",
+      "bytes": 102358
+    },
+    {
+      "path": "coding/codex_pet_coding_v40_keypose_review.jpg",
+      "bytes": 155240
+    },
+    {
+      "path": "coding/codex_pet_coding_v40_mobile.gif",
+      "bytes": 3288996
+    },
+    {
+      "path": "coding/codex_pet_coding_v40_mobile_preview.html",
+      "bytes": 4467028
+    },
+    {
+      "path": "coding/codex_pet_coding_v40_mobile.webp",
+      "bytes": 1161508
+    },
+    {
+      "path": "coding/codex_pet_coding_v40_20261105_review.zip",
+      "bytes": 12576639
+    },
+    {
+      "path": "coding/codex_pet_coding_v39_layers.ora",
+      "bytes": 1494093
+    },
+    {
+      "path": "coding/codex_pet_coding_v39_RELEASE_NOTES.md",
+      "bytes": 1325
+    },
+    {
+      "path": "coding/codex_pet_coding_v39_keypose_review.jpg",
+      "bytes": 150355
+    },
+    {
+      "path": "coding/codex_pet_coding_v39_face_angle_closeup.jpg",
+      "bytes": 89183
+    },
+    {
+      "path": "coding/codex_pet_coding_v39_mobile.gif",
+      "bytes": 3149109
+    },
+    {
+      "path": "coding/codex_pet_coding_v39_mobile.webp",
+      "bytes": 778902
+    },
+    {
+      "path": "coding/codex_pet_coding_v39_mobile_preview.html",
+      "bytes": 4667068
+    },
+    {
+      "path": "coding/codex_pet_coding_v39_20261105_review.zip",
+      "bytes": 11843439
+    },
+    {
+      "path": "coding/codex_pet_coding_v38_eye_layers.ora",
+      "bytes": 540812
+    },
+    {
+      "path": "coding/codex_pet_coding_v38_keypose_review.jpg",
+      "bytes": 151702
+    },
+    {
+      "path": "coding/codex_pet_coding_v38_eyes_closeup.jpg",
+      "bytes": 80219
+    },
+    {
+      "path": "coding/codex_pet_coding_v38_RELEASE_NOTES.md",
+      "bytes": 1585
+    },
+    {
+      "path": "coding/codex_pet_coding_v38_mobile.gif",
+      "bytes": 3423678
+    },
+    {
+      "path": "coding/codex_pet_coding_v38_mobile_preview.html",
+      "bytes": 1615300
+    },
+    {
+      "path": "coding/codex_pet_coding_v38_mobile.webp",
+      "bytes": 686752
+    },
+    {
+      "path": "coding/codex_pet_coding_v38_20261104_review.zip",
+      "bytes": 9340510
+    },
+    {
+      "path": "coding/codex_pet_coding_v37_RELEASE_NOTES.md",
+      "bytes": 1006
+    },
+    {
+      "path": "coding/codex_pet_coding_v37_keypose_review.jpg",
+      "bytes": 187361
+    },
+    {
+      "path": "coding/codex_pet_coding_v37_face_detail.jpg",
+      "bytes": 74126
+    },
+    {
+      "path": "coding/codex_pet_coding_v37_mobile.gif",
+      "bytes": 3485747
+    },
+    {
+      "path": "coding/codex_pet_coding_v37_mobile.webp",
+      "bytes": 607732
+    },
+    {
+      "path": "coding/codex_pet_coding_v37_mobile_preview_lite.html",
+      "bytes": 1137110
+    },
+    {
+      "path": "coding/codex_pet_coding_v37_20261104_review.zip",
+      "bytes": 14150021
+    },
+    {
+      "path": "coding/codex_pet_coding_v36_preview.html",
+      "bytes": 1679227
+    },
+    {
+      "path": "coding/codex_pet_coding_v36_layers.ora",
+      "bytes": 750632
+    },
+    {
+      "path": "coding/codex_pet_coding_v36_RELEASE_NOTES.md",
+      "bytes": 850
+    },
+    {
+      "path": "coding/codex_pet_coding_v36_20261104_review.zip",
+      "bytes": 7549870
+    },
+    {
+      "path": "coding/codex_pet_coding_v36_face_macro_review.jpg",
+      "bytes": 96389
+    },
+    {
+      "path": "coding/codex_pet_coding_v36_reading_expression.mp4",
+      "bytes": 409508
+    },
+    {
+      "path": "coding/codex_pet_coding_v36_six_pose_review.jpg",
+      "bytes": 167188
+    },
+    {
+      "path": "coding/codex_pet_coding_v35_preview.html",
+      "bytes": 1538432
+    },
+    {
+      "path": "coding/codex_pet_coding_v35_RELEASE_NOTES.md",
+      "bytes": 1286
+    },
+    {
+      "path": "coding/codex_pet_coding_v35_preview_466.png",
+      "bytes": 249811
+    },
+    {
+      "path": "coding/codex_pet_coding_v35_reading_loop.mp4",
+      "bytes": 321181
+    },
+    {
+      "path": "coding/codex_pet_coding_v35_keypose_review.jpg",
+      "bytes": 155783
+    },
+    {
+      "path": "coding/codex_pet_coding_v35_20261104_review.zip",
+      "bytes": 7432586
+    },
+    {
+      "path": "integration/CODEX_PET_READINESS_REPORT_V1.md",
+      "bytes": 8471
+    },
+    {
+      "path": "background/BACKGROUND_V3_RELEASE_NOTES.md",
+      "bytes": 956
+    },
+    {
+      "path": "background/codex_pet_background_v3_comparison.jpg",
+      "bytes": 144726
+    },
+    {
+      "path": "background/codex_pet_background_v3_motion.mp4",
+      "bytes": 206028
+    },
+    {
+      "path": "background/codex_pet_background_v3_preview.html",
+      "bytes": 499232
+    },
+    {
+      "path": "background/codex_pet_background_v3_review.zip",
+      "bytes": 4148342
+    },
+    {
+      "path": "coding/codex_pet_coding_v34_preview.html",
+      "bytes": 2288810
+    },
+    {
+      "path": "coding/codex_pet_coding_v34_layers.ora",
+      "bytes": 921828
+    },
+    {
+      "path": "coding/codex_pet_coding_v34_RELEASE_NOTES.md",
+      "bytes": 1802
+    },
+    {
+      "path": "coding/codex_pet_coding_v34_keyposes.jpg",
+      "bytes": 334999
+    },
+    {
+      "path": "coding/codex_pet_coding_v34_rig_anchors_466.png",
+      "bytes": 272103
+    },
+    {
+      "path": "coding/codex_pet_coding_v34_preview_mobile.mp4",
+      "bytes": 85232
+    },
+    {
+      "path": "coding/codex_pet_coding_v34_20261104_review.zip",
+      "bytes": 7813995
+    },
+    {
+      "path": "background/BACKGROUND_V2_RELEASE_NOTES.md",
+      "bytes": 886
+    },
+    {
+      "path": "background/codex_pet_background_v2_review.zip",
+      "bytes": 6287996
+    },
+    {
+      "path": "background/codex_pet_background_v2_preview.html",
+      "bytes": 2724843
+    },
+    {
+      "path": "background/codex_pet_background_v2_motion.mp4",
+      "bytes": 175702
+    },
+    {
+      "path": "background/codex_pet_background_v2_comparison.jpg",
+      "bytes": 183549
+    },
+    {
+      "path": "coding/codex_pet_coding_v33_preview.html",
+      "bytes": 1442980
+    },
+    {
+      "path": "coding/codex_pet_coding_v33_RELEASE_NOTES.md",
+      "bytes": 869
+    },
+    {
+      "path": "coding/codex_pet_coding_v33_keypose_comparison.jpg",
+      "bytes": 326477
+    },
+    {
+      "path": "coding/codex_pet_coding_v33_preview_mobile.mp4",
+      "bytes": 209185
+    },
+    {
+      "path": "coding/codex_pet_coding_v33_motion_closeup.jpg",
+      "bytes": 137266
+    },
+    {
+      "path": "coding/codex_pet_coding_v33_20261104_review.zip",
+      "bytes": 3494075
+    },
+    {
+      "path": "background/codex_pet_background_v1_standalone.html",
+      "bytes": 2642706
+    },
+    {
+      "path": "background/codex_pet_background_v1_review.zip",
+      "bytes": 4161463
+    }
+  ]
+}
