@@ -1,0 +1,304 @@
+{
+  "workstream": "WORKING",
+  "version": "V46",
+  "status": "review",
+  "source_v45_sha256": "62186f7e349d25df7103e48949e3f5b6bea53f1b059a5c952d7f956537f5fbd3",
+  "screen": [
+    466,
+    466
+  ],
+  "groups": [
+    {
+      "id": "hair_fringe",
+      "root": [
+        252,
+        151
+      ],
+      "mid": [
+        240,
+        174
+      ],
+      "tip": [
+        245,
+        208
+      ],
+      "bbox": [
+        131,
+        109,
+        369,
+        266
+      ],
+      "visible_layer": "assets/hair_layers/hair_fringe_466.png",
+      "crop": "assets/hair_layers/hair_fringe_crop.png",
+      "ready": "deformer_only",
+      "hidden_underlay_painted": false,
+      "independent_rotation_sprite_ready": false,
+      "color": "#77c9fa",
+      "max_dx_px": 0.5,
+      "max_dy_px": 0.12,
+      "frequency_per_12s": 2,
+      "lag_rad": 0.0,
+      "motion_notes": "Source-derived pixel-local UV mesh, anchored from root through mid to tip; not independently hand-painted 3-segment anatomy."
+    },
+    {
+      "id": "hair_left_face",
+      "root": [
+        174,
+        188
+      ],
+      "mid": [
+        153,
+        230
+      ],
+      "tip": [
+        139,
+        264
+      ],
+      "bbox": [
+        121,
+        171,
+        197,
+        268
+      ],
+      "visible_layer": "assets/hair_layers/hair_left_face_466.png",
+      "crop": "assets/hair_layers/hair_left_face_crop.png",
+      "ready": "deformer_only",
+      "hidden_underlay_painted": false,
+      "independent_rotation_sprite_ready": false,
+      "color": "#fbb8d8",
+      "max_dx_px": 0.95,
+      "max_dy_px": 0.4,
+      "frequency_per_12s": 2,
+      "lag_rad": 0.16,
+      "motion_notes": "Source-derived pixel-local UV mesh, anchored from root through mid to tip; not independently hand-painted 3-segment anatomy."
+    },
+    {
+      "id": "hair_right_face",
+      "root": [
+        351,
+        189
+      ],
+      "mid": [
+        365,
+        226
+      ],
+      "tip": [
+        375,
+        256
+      ],
+      "bbox": [
+        353,
+        171,
+        372,
+        249
+      ],
+      "visible_layer": "assets/hair_layers/hair_right_face_466.png",
+      "crop": "assets/hair_layers/hair_right_face_crop.png",
+      "ready": "deformer_only",
+      "hidden_underlay_painted": false,
+      "independent_rotation_sprite_ready": false,
+      "color": "#a5a4ff",
+      "max_dx_px": 1.15,
+      "max_dy_px": 0.35,
+      "frequency_per_12s": 2,
+      "lag_rad": 0.34,
+      "motion_notes": "Source-derived pixel-local UV mesh, anchored from root through mid to tip; not independently hand-painted 3-segment anatomy."
+    },
+    {
+      "id": "hair_left_root",
+      "root": [
+        180,
+        226
+      ],
+      "mid": [
+        162,
+        272
+      ],
+      "tip": [
+        143,
+        304
+      ],
+      "bbox": [
+        109,
+        176,
+        205,
+        284
+      ],
+      "visible_layer": "assets/hair_layers/hair_left_root_466.png",
+      "crop": "assets/hair_layers/hair_left_root_crop.png",
+      "ready": "deformer_only",
+      "hidden_underlay_painted": false,
+      "independent_rotation_sprite_ready": false,
+      "color": "#f7d98a",
+      "max_dx_px": 0.85,
+      "max_dy_px": 0.35,
+      "frequency_per_12s": 1,
+      "lag_rad": 0.22,
+      "motion_notes": "Source-derived pixel-local UV mesh, anchored from root through mid to tip; not independently hand-painted 3-segment anatomy."
+    },
+    {
+      "id": "hair_left_outer",
+      "root": [
+        147,
+        264
+      ],
+      "mid": [
+        106,
+        324
+      ],
+      "tip": [
+        84,
+        382
+      ],
+      "bbox": [
+        57,
+        248,
+        130,
+        411
+      ],
+      "visible_layer": "assets/hair_layers/hair_left_outer_466.png",
+      "crop": "assets/hair_layers/hair_left_outer_crop.png",
+      "ready": "deformer_only",
+      "hidden_underlay_painted": false,
+      "independent_rotation_sprite_ready": false,
+      "color": "#89f7cd",
+      "max_dx_px": 2.95,
+      "max_dy_px": 1.3,
+      "frequency_per_12s": 1,
+      "lag_rad": 0.64,
+      "motion_notes": "Source-derived pixel-local UV mesh, anchored from root through mid to tip; not independently hand-painted 3-segment anatomy."
+    },
+    {
+      "id": "hair_left_inner",
+      "root": [
+        178,
+        268
+      ],
+      "mid": [
+        153,
+        323
+      ],
+      "tip": [
+        142,
+        362
+      ],
+      "bbox": [
+        125,
+        280,
+        193,
+        349
+      ],
+      "visible_layer": "assets/hair_layers/hair_left_inner_466.png",
+      "crop": "assets/hair_layers/hair_left_inner_crop.png",
+      "ready": "deformer_only",
+      "hidden_underlay_painted": false,
+      "independent_rotation_sprite_ready": false,
+      "color": "#d3a4fa",
+      "max_dx_px": 1.6,
+      "max_dy_px": 0.75,
+      "frequency_per_12s": 1,
+      "lag_rad": 0.93,
+      "motion_notes": "Source-derived pixel-local UV mesh, anchored from root through mid to tip; not independently hand-painted 3-segment anatomy."
+    },
+    {
+      "id": "hair_left_tips",
+      "root": [
+        155,
+        328
+      ],
+      "mid": [
+        139,
+        378
+      ],
+      "tip": [
+        159,
+        405
+      ],
+      "bbox": [
+        130,
+        349,
+        154,
+        413
+      ],
+      "visible_layer": "assets/hair_layers/hair_left_tips_466.png",
+      "crop": "assets/hair_layers/hair_left_tips_crop.png",
+      "ready": "deformer_only",
+      "hidden_underlay_painted": false,
+      "independent_rotation_sprite_ready": false,
+      "color": "#f6aa9a",
+      "max_dx_px": 2.3,
+      "max_dy_px": 0.75,
+      "frequency_per_12s": 1,
+      "lag_rad": 1.22,
+      "motion_notes": "Source-derived pixel-local UV mesh, anchored from root through mid to tip; not independently hand-painted 3-segment anatomy."
+    }
+  ],
+  "neutral_frame_pixel_exact": true,
+  "loop_seconds": 12.0,
+  "preview_fps": 10,
+  "state_contract": {
+    "thinking": "working",
+    "coding": "working",
+    "working": "working",
+    "thinking_to_coding": "continue_motion_phase",
+    "idle_to_working": "instant_cut"
+  },
+  "rendering": "Smooth image-space inverse-map deformation from independently weighted bone chains; not completed drawable bone sprites.",
+  "protected_regions": [
+    "eyes",
+    "hat",
+    "hands",
+    "terminal",
+    "boots"
+  ],
+  "constraints": {
+    "small_motion_only": true,
+    "max_hair_tip_shift_px": 3,
+    "do_not_extend_motion_without_inpainted_underlays": true
+  },
+  "source_layer_authoring_note": "Exact visible partitions suitable for paintover; joints drive independent localized mesh maps, not separate rigid sprite rotation.",
+  "frequencies": {
+    "hair_fringe": {
+      "amp_x": 0.5,
+      "amp_y": 0.12,
+      "cycles_per_loop": 2,
+      "phase_lag_rad": 0.0
+    },
+    "hair_left_face": {
+      "amp_x": 0.95,
+      "amp_y": 0.4,
+      "cycles_per_loop": 2,
+      "phase_lag_rad": 0.16
+    },
+    "hair_right_face": {
+      "amp_x": -1.15,
+      "amp_y": 0.35,
+      "cycles_per_loop": 2,
+      "phase_lag_rad": 0.34
+    },
+    "hair_left_root": {
+      "amp_x": 0.85,
+      "amp_y": 0.35,
+      "cycles_per_loop": 1,
+      "phase_lag_rad": 0.22
+    },
+    "hair_left_outer": {
+      "amp_x": 2.95,
+      "amp_y": 1.3,
+      "cycles_per_loop": 1,
+      "phase_lag_rad": 0.64
+    },
+    "hair_left_inner": {
+      "amp_x": 1.6,
+      "amp_y": 0.75,
+      "cycles_per_loop": 1,
+      "phase_lag_rad": 0.93
+    },
+    "hair_left_tips": {
+      "amp_x": -2.3,
+      "amp_y": 0.75,
+      "cycles_per_loop": 1,
+      "phase_lag_rad": 1.22
+    }
+  }
+}
