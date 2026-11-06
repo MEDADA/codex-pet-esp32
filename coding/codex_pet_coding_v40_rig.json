@@ -1,0 +1,489 @@
+{
+  "project": "Codex Pet",
+  "workstream": "coding",
+  "version": "V40",
+  "status": "review",
+  "canvas": [
+    466,
+    466
+  ],
+  "duration_seconds": 30,
+  "loop": "deterministic seamless timebase",
+  "character": "identical Pose4 source from Coding V39",
+  "shared_stage": "V39 stage_dependency_466.png unchanged; not approved global backdrop",
+  "events": [
+    {
+      "time": 0.0,
+      "name": "focus",
+      "description": "Eyes settle on tablet"
+    },
+    {
+      "time": 2.45,
+      "name": "scan_left",
+      "description": "Gaze leads a small head tilt"
+    },
+    {
+      "time": 5.9,
+      "name": "read_next",
+      "description": "Soft refocus to opposite side"
+    },
+    {
+      "time": 9.9,
+      "name": "scan_right",
+      "description": "Another short reading pause"
+    },
+    {
+      "time": 13.4,
+      "name": "recheck",
+      "description": "Eyes return to verify a line"
+    },
+    {
+      "time": 17.0,
+      "name": "puzzled",
+      "description": "Brief thoughtful brow, lower chin"
+    },
+    {
+      "time": 21.6,
+      "name": "understood",
+      "description": "Subtle satisfied smile"
+    },
+    {
+      "time": 25.1,
+      "name": "resume",
+      "description": "Returns to ordinary reading"
+    },
+    {
+      "time": 29.9,
+      "name": "loop",
+      "description": "Ready for a smooth repeat"
+    }
+  ],
+  "gaze_keys": [
+    [
+      0,
+      0
+    ],
+    [
+      0.8,
+      0
+    ],
+    [
+      1.55,
+      -0.35
+    ],
+    [
+      2.45,
+      -0.65
+    ],
+    [
+      3.48,
+      -0.65
+    ],
+    [
+      4.2,
+      -0.12
+    ],
+    [
+      5.15,
+      0.3
+    ],
+    [
+      6.45,
+      0.3
+    ],
+    [
+      7.25,
+      -0.4
+    ],
+    [
+      8.6,
+      -0.4
+    ],
+    [
+      9.2,
+      0.68
+    ],
+    [
+      10.52,
+      0.68
+    ],
+    [
+      11.2,
+      0.05
+    ],
+    [
+      12.1,
+      -0.5
+    ],
+    [
+      13.3,
+      -0.5
+    ],
+    [
+      14.55,
+      0.25
+    ],
+    [
+      15.3,
+      0.1
+    ],
+    [
+      16.1,
+      -0.2
+    ],
+    [
+      18.75,
+      -0.2
+    ],
+    [
+      19.7,
+      0.4
+    ],
+    [
+      21.2,
+      0.4
+    ],
+    [
+      22.15,
+      -0.12
+    ],
+    [
+      23.3,
+      -0.12
+    ],
+    [
+      24.25,
+      0.64
+    ],
+    [
+      25.55,
+      0.64
+    ],
+    [
+      26.15,
+      -0.2
+    ],
+    [
+      27.15,
+      -0.2
+    ],
+    [
+      27.85,
+      0.16
+    ],
+    [
+      28.65,
+      0.16
+    ],
+    [
+      29.45,
+      0
+    ],
+    [
+      30,
+      0
+    ]
+  ],
+  "head_tilt_keys": [
+    [
+      0,
+      0
+    ],
+    [
+      1.5,
+      0
+    ],
+    [
+      2.5,
+      -0.45
+    ],
+    [
+      3.82,
+      -0.45
+    ],
+    [
+      4.8,
+      -0.08
+    ],
+    [
+      6.1,
+      0.14
+    ],
+    [
+      7.2,
+      0.14
+    ],
+    [
+      8.35,
+      -0.2
+    ],
+    [
+      9.28,
+      -0.2
+    ],
+    [
+      10.25,
+      0.46
+    ],
+    [
+      11.55,
+      0.46
+    ],
+    [
+      12.65,
+      0
+    ],
+    [
+      13.6,
+      -0.32
+    ],
+    [
+      15.15,
+      -0.32
+    ],
+    [
+      16.6,
+      -0.45
+    ],
+    [
+      18.6,
+      -0.45
+    ],
+    [
+      19.85,
+      -0.15
+    ],
+    [
+      21.4,
+      0.2
+    ],
+    [
+      22.55,
+      0.2
+    ],
+    [
+      23.8,
+      -0.1
+    ],
+    [
+      25.15,
+      0.42
+    ],
+    [
+      26.3,
+      0.42
+    ],
+    [
+      27.55,
+      -0.08
+    ],
+    [
+      28.6,
+      -0.08
+    ],
+    [
+      29.45,
+      0
+    ],
+    [
+      30,
+      0
+    ]
+  ],
+  "head_nod_keys": [
+    [
+      0,
+      0
+    ],
+    [
+      0.6,
+      0
+    ],
+    [
+      2.3,
+      0.8
+    ],
+    [
+      3.7,
+      1.35
+    ],
+    [
+      4.6,
+      0.55
+    ],
+    [
+      6.0,
+      0.35
+    ],
+    [
+      7.4,
+      0.95
+    ],
+    [
+      8.8,
+      1.05
+    ],
+    [
+      10.2,
+      0.55
+    ],
+    [
+      11.7,
+      0.95
+    ],
+    [
+      13.0,
+      1.5
+    ],
+    [
+      14.8,
+      0.55
+    ],
+    [
+      16.4,
+      2.05
+    ],
+    [
+      18.1,
+      1.9
+    ],
+    [
+      19.6,
+      0.5
+    ],
+    [
+      21.5,
+      0.3
+    ],
+    [
+      22.8,
+      0.85
+    ],
+    [
+      24.0,
+      1.05
+    ],
+    [
+      25.8,
+      0.45
+    ],
+    [
+      27.1,
+      1.2
+    ],
+    [
+      28.4,
+      0.6
+    ],
+    [
+      29.5,
+      0
+    ],
+    [
+      30,
+      0
+    ]
+  ],
+  "blinks": [
+    [
+      3.9,
+      0.28
+    ],
+    [
+      7.92,
+      0.29
+    ],
+    [
+      11.5,
+      0.25
+    ],
+    [
+      14.55,
+      0.26
+    ],
+    [
+      14.91,
+      0.23
+    ],
+    [
+      19.52,
+      0.3
+    ],
+    [
+      24.02,
+      0.27
+    ],
+    [
+      27.55,
+      0.29
+    ]
+  ],
+  "head": {
+    "soft_rotation_max_degrees": 1.6,
+    "nod_px_max": 2.05,
+    "pivot": [
+      255,
+      258
+    ],
+    "type": "soft blended 2D warp, not handpainted head angles"
+  },
+  "eyes": {
+    "centers": [
+      [
+        241,
+        210
+      ],
+      [
+        309,
+        198
+      ]
+    ],
+    "states": [
+      "open",
+      "quarter",
+      "half",
+      "three_quarter",
+      "closed"
+    ],
+    "source": "per-eye five-state V38/V39 source-derived raster overlays"
+  },
+  "expression": {
+    "thinking_seconds": [
+      15.2,
+      16.45,
+      18.2,
+      19.05
+    ],
+    "pleased_seconds": [
+      20.25,
+      21.25,
+      22.7,
+      23.95
+    ]
+  },
+  "terminal": {
+    "content": "synthetic decorative lines",
+    "scroll_period_seconds": 10,
+    "scroll_speed_px_per_second": 4.8,
+    "tablet_position": "fixed"
+  },
+  "hands": "static by user request",
+  "background": "unchanged",
+  "device_test": "not performed",
+  "source_dependency": "Coding V39 review package",
+  "ownership": {
+    "write": "/CodexPet/coding",
+    "read_only": [
+      "/CodexPet/idle",
+      "/CodexPet/shared",
+      "/CodexPet/background",
+      "/CodexPet/PROJECT_INDEX.md"
+    ]
+  },
+  "limitations": [
+    "Eye sprites are source-derived retouches",
+    "No full Live2D or true 3D head yaw",
+    "Visual QA not hardware performance",
+    "Phone preview compatibility needs on-device check"
+  ]
+}
