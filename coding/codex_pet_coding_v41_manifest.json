@@ -1,0 +1,238 @@
+{
+  "project": "CodexPet",
+  "module": "Coding",
+  "version": "V41",
+  "status": "review",
+  "release_date": "2026-11-05",
+  "canvas": {
+    "width": 466,
+    "height": 466,
+    "pixel_origin": "top-left",
+    "color_space": "sRGB reference artwork"
+  },
+  "source": "Coding V40 30-second natural reading review; approved Pose4 holding terminal; no new redraw",
+  "artwork_hashes": {
+    "character_sha256": "767e6fd57982d66c4c5fdc3bf9366e66dda9ff1ac9040ea4a470776b06fc38cb",
+    "stage_sha256": "6e01f9ff6b547660d16805e07429291b812306e53a3e9b1861f986b7bc591d24"
+  },
+  "character": {
+    "file": "assets/character_pose4_crop.png",
+    "global_origin_xy": [
+      57,
+      37
+    ],
+    "size": [
+      353,
+      387
+    ],
+    "alpha": "straight A8",
+    "type": "single flattened sprite: NOT a segmented head skeleton"
+  },
+  "stage": {
+    "file": "assets/stage_dependency_466.png",
+    "render_size": [
+      466,
+      466
+    ],
+    "read_only": true,
+    "status": "V40 dependency snapshot; global background owner approval separate"
+  },
+  "eyes": {
+    "mask_crops": [
+      {
+        "side": "left",
+        "x": 226,
+        "y": 199,
+        "width": 31,
+        "height": 23,
+        "file": "assets/gaze_mask_left.png"
+      },
+      {
+        "side": "right",
+        "x": 296,
+        "y": 187,
+        "width": 27,
+        "height": 23,
+        "file": "assets/gaze_mask_right.png"
+      }
+    ],
+    "eyelid_crops": [
+      {
+        "side": "left",
+        "state": "open",
+        "visible": false,
+        "canvas": [
+          139,
+          55
+        ],
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "file": null
+      },
+      {
+        "side": "left",
+        "state": "quarter",
+        "visible": true,
+        "x": 209,
+        "y": 196,
+        "width": 57,
+        "height": 12,
+        "file": "assets/eyelid_left_quarter.png"
+      },
+      {
+        "side": "left",
+        "state": "half",
+        "visible": true,
+        "x": 209,
+        "y": 196,
+        "width": 58,
+        "height": 19,
+        "file": "assets/eyelid_left_half.png"
+      },
+      {
+        "side": "left",
+        "state": "three_quarter",
+        "visible": true,
+        "x": 209,
+        "y": 196,
+        "width": 58,
+        "height": 26,
+        "file": "assets/eyelid_left_three_quarter.png"
+      },
+      {
+        "side": "left",
+        "state": "closed",
+        "visible": true,
+        "x": 207,
+        "y": 196,
+        "width": 60,
+        "height": 31,
+        "file": "assets/eyelid_left_closed.png"
+      },
+      {
+        "side": "right",
+        "state": "open",
+        "visible": false,
+        "canvas": [
+          139,
+          55
+        ],
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "file": null
+      },
+      {
+        "side": "right",
+        "state": "quarter",
+        "visible": true,
+        "x": 290,
+        "y": 180,
+        "width": 45,
+        "height": 14,
+        "file": "assets/eyelid_right_quarter.png"
+      },
+      {
+        "side": "right",
+        "state": "half",
+        "visible": true,
+        "x": 290,
+        "y": 180,
+        "width": 45,
+        "height": 22,
+        "file": "assets/eyelid_right_half.png"
+      },
+      {
+        "side": "right",
+        "state": "three_quarter",
+        "visible": true,
+        "x": 290,
+        "y": 180,
+        "width": 45,
+        "height": 29,
+        "file": "assets/eyelid_right_three_quarter.png"
+      },
+      {
+        "side": "right",
+        "state": "closed",
+        "visible": true,
+        "x": 287,
+        "y": 180,
+        "width": 48,
+        "height": 35,
+        "file": "assets/eyelid_right_closed.png"
+      }
+    ],
+    "render_order": [
+      "character",
+      "gaze local transform",
+      "eyelid overlay",
+      "head gentle deformation",
+      "terminal code overlay"
+    ],
+    "is_true_live2d_rig": false
+  },
+  "head": {
+    "mask": "assets/head_soft_motion_mask_crop.png",
+    "mask_origin_xy": [
+      57,
+      37
+    ],
+    "type": "soft 2D field only",
+    "pivot_xy": [
+      255,
+      258
+    ],
+    "max_tilt_degrees": 1.6,
+    "max_nod_px": 2.05,
+    "requires_reference_renderer": true
+  },
+  "tablet": [
+    {
+      "side": "left",
+      "rect_xywh": [
+        225,
+        265,
+        44,
+        39
+      ],
+      "underlay": "assets/terminal_left_underlay.png",
+      "render": "procedural decorative code bars; clipped to rect; screen does not move"
+    },
+    {
+      "side": "right",
+      "rect_xywh": [
+        307,
+        265,
+        28,
+        39
+      ],
+      "underlay": "assets/terminal_right_underlay.png",
+      "render": "procedural decorative code bars; clipped to rect; screen does not move"
+    }
+  ],
+  "duration_seconds": 30,
+  "sample_csv": "source/motion_samples_10hz.csv",
+  "motion_json": "source/rig_v40_immutable.json",
+  "binary_encoding": {
+    "rgb565": "little endian, R5 G6 B5, row major, 2 bytes per pixel",
+    "a8": "8 bit straight alpha plane, row major, 1 byte per pixel",
+    "notes": "RGB565/A8 resource blobs are raw pixel arrays, not LVGL image-header objects. Integrator must construct descriptors/decoder pipeline."
+  },
+  "firmware_interface": "docs/CODEX_INTEGRATION.md",
+  "physical_device_test": false,
+  "user_visual_approval": false,
+  "permissions": {
+    "write_scope": "/CodexPet/coding/",
+    "read_only": [
+      "/CodexPet/idle/",
+      "/CodexPet/shared/",
+      "/CodexPet/background/",
+      "/CodexPet/background_lighting/",
+      "/CodexPet/PROJECT_INDEX.md"
+    ]
+  }
+}
