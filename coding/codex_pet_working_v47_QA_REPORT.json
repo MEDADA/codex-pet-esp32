@@ -1,0 +1,63 @@
+{
+  "version": "V47",
+  "status": "review",
+  "screen_px": [
+    466,
+    466
+  ],
+  "original_v45_sprite_sha256": "62186f7e349d25df7103e48949e3f5b6bea53f1b059a5c952d7f956537f5fbd3",
+  "source_pixel_exact": true,
+  "visible_hair_layer_count": 7,
+  "visible_total_layers": 19,
+  "hidden_guides": 3,
+  "mesh_bone_nodes": 21,
+  "tail_nodes": 3,
+  "max_displacement_px": 2.185,
+  "terminal_hands_boots_protection_unchanged": true,
+  "protected_core_pixel_checks": {
+    "terminal": {
+      "core_pixels": 8061,
+      "max_changed_core_pixels": 0
+    },
+    "hand_left": {
+      "core_pixels": 1580,
+      "max_changed_core_pixels": 0
+    },
+    "hand_right": {
+      "core_pixels": 1515,
+      "max_changed_core_pixels": 0
+    },
+    "boots": {
+      "core_pixels": 1958,
+      "max_changed_core_pixels": 0
+    }
+  },
+  "hair_core_transparency_holes_at_96_samples": 0,
+  "gif_duration_ms": 24000,
+  "webp_duration_ms": 24000,
+  "gif_frames": 96,
+  "webp_frames": 192,
+  "timeline_frame0_equals_frameend": true,
+  "mean_non_neutral_changed_pixels": 48910.2,
+  "contains_complete_hidden_hair_art": false,
+  "native_esp32_lcd_tested": false,
+  "user_visual_approved": false,
+  "status_detail": "handoff-ready for Codex trial; 2D constrained mesh rig, not fully painted Live2D bone art",
+  "chromium_mobile_viewport_preview": {
+    "viewport": [
+      393,
+      852
+    ],
+    "animation_loaded": true,
+    "8_pose_buttons_work": true,
+    "javascript_errors": 0,
+    "method": "Playwright page.set_content (file:// navigation restricted)"
+  },
+  "standalone_package_rebuild": {
+    "passed": true,
+    "source_pixel_exact": true,
+    "gif_duration_ms": 24000,
+    "webp_duration_ms": 24000,
+    "tested_from_extracted_archive": true
+  }
+}
