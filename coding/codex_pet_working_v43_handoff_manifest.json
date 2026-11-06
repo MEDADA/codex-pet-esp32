@@ -1,0 +1,42 @@
+{
+  "version": "V43",
+  "component": "Working/Coding/Thinking",
+  "status": "ART_HANDOFF_CANDIDATE",
+  "canvas": [
+    466,
+    466
+  ],
+  "role": "illustration and animation reference, not installed firmware",
+  "head_motion": "soft 2D warp of flat character; requires host renderer or experimental pre-rendered deltas",
+  "eye_sprite_count": 8,
+  "eye_sprite_decoded_bytes": 107856,
+  "required_assets": {
+    "character": {
+      "size": [
+        353,
+        387
+      ],
+      "rgb565_bytes": 273222,
+      "a8_bytes": 136611,
+      "rgba_source": "assets/character_crop.png"
+    },
+    "stage": {
+      "size": [
+        466,
+        466
+      ],
+      "rgb565_bytes": 434312,
+      "rgb_source": "assets/stage_dependency_466.png"
+    }
+  },
+  "30s_reference": "preview/coding_v43_30s_mobile.webp",
+  "device_diagnostic_5s_bytes": 2852311,
+  "experimental_full_delta_bytes": 19334935,
+  "rendering_notes": "Eye keypose RGBA + cropped position; original stage/character immutable; terminal must refresh in own region, optional host 30s rig controller",
+  "visual_scene_aliases": {
+    "thinking": "working",
+    "coding": "working"
+  },
+  "alias_switch_must_preserve_clock": true,
+  "esp32_test": false
+}
