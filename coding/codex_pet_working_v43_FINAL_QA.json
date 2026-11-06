@@ -1,0 +1,38 @@
+{
+  "pass": true,
+  "date": "2026-11-05",
+  "status": "ART_HANDOFF_CANDIDATE",
+  "working_scene_aliases": [
+    "thinking",
+    "coding",
+    "working"
+  ],
+  "source_unchanged": true,
+  "eye_sprites": 8,
+  "visible_ora_layers": 3,
+  "hidden_reference_ora_layers": 9,
+  "ora_compositing_pixel_identical": true,
+  "neutral_same_as_v40": true,
+  "loop_seam_pixel_identical": true,
+  "rgb565_frame_replay_checked": 300,
+  "mobile_webp_ms": 30000,
+  "mobile_gif_ms": 30000,
+  "browser_smoke": {
+    "loaded": {
+      "complete": true,
+      "width": 360,
+      "height": 360
+    },
+    "closed_select": "当前关键姿势：closed",
+    "puzzled_select": "当前关键姿势：puzzled",
+    "resumed_prefix": "data:image/webp;base",
+    "javascript_errors": [],
+    "pass": true
+  },
+  "full_zip_bytes": 14790743,
+  "device_zip_bytes": 3657540,
+  "optional_experiment_bytes": 19477489,
+  "ascii_names": true,
+  "hardware_test": "NOT RUN",
+  "approval": "visual and device sign-off required; no PROJECT_INDEX mutation"
+}
