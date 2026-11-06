@@ -1,0 +1,15 @@
+build/
+build-*/
+managed_components/
+baseline-artifacts/
+__pycache__/
+.superpowers/
+
+# Device readbacks contain private pairing/configuration data
+device-backup/
+
+# Local captures, build overrides and credentials
+*.log
+sdkconfig.old
+.env
+.env.*

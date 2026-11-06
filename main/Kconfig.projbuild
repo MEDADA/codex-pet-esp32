@@ -1,0 +1,44 @@
+menu "Rem Companion"
+config BUDDY_PET_V11
+    bool "Use Pet V11.1 stage (LVGL 9)"
+    default n
+    help
+        Select the supplied static pet stage with existing Bridge and details.
+        Disable to rebuild the preserved Rem UI. IMU is a later phase.
+config BUDDY_PET_V11_ANIMATION
+    bool "Enable lightweight V11.1 blink and state cues"
+    depends on BUDDY_PET_V11
+    default y
+    help
+        Disable to return to the static P0 view without changing Bridge logic.
+config BUDDY_PET_V11_IMU
+    bool "Enable QMI8658 six-axis glint cues"
+    depends on BUDDY_PET_V11
+    default y
+    help
+        Uses a stable 2-second neutral calibration. BOOT long press recalibrates.
+        Glints are visual proxies, not real eye tracking. Disable to return to P1.
+
+config BUDDY_VOICE_BRIDGE
+    bool "Enable Mac voice bridge (Wi-Fi + HTTP PCM audio)"
+    default n if BUDDY_PET_V11
+    default y
+    help
+        Rem companion only. Pulls in the Wi-Fi driver, the setup portal, the
+        HTTP voice client and the ES8311 speaker path. Pet V11.1 has no voice
+        UI, so leaving it off frees internal RAM and keeps the radio idle.
+        Rem builds default to on; the pet stage defaults to off.
+
+config BUDDY_WIFI_SSID
+    string "Initial Wi-Fi SSID (optional; can provision on device)"
+    default ""
+config BUDDY_WIFI_PASSWORD
+    string "Initial Wi-Fi password"
+    default ""
+config BUDDY_VOICE_URL
+    string "Mac voice bridge URL (http://LAN-IP:8765)"
+    default ""
+config BUDDY_VOICE_TOKEN
+    string "Voice bridge device bearer token"
+    default ""
+endmenu
