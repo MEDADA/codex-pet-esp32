@@ -1,0 +1,246 @@
+{
+  "version": "V42",
+  "status": "review",
+  "canvas": {
+    "width": 466,
+    "height": 466,
+    "color_space": "sRGB artwork, RGB565 conversion candidate"
+  },
+  "dependency": {
+    "artwork": "V41/V40 Pose4 immutable",
+    "character_sha256": "767e6fd57982d66c4c5fdc3bf9366e66dda9ff1ac9040ea4a470776b06fc38cb",
+    "stage_sha256": "6e01f9ff6b547660d16805e07429291b812306e53a3e9b1861f986b7bc591d24",
+    "shared_background_status": "read-only dependency; verify with Background owner"
+  },
+  "eyelid_atlas": {
+    "file": "assets/eyelid_atlas.png",
+    "size_px": [
+      128,
+      117
+    ],
+    "rgb565": "binary/eyelid_atlas.rgb565",
+    "a8": "binary/eyelid_atlas.a8",
+    "little_endian": true,
+    "pixel_bytes_total": 44928,
+    "sprites": {
+      "eyelid_left_quarter": {
+        "atlas_xywh": [
+          2,
+          2,
+          57,
+          12
+        ],
+        "target_xy": [
+          209,
+          196
+        ],
+        "source_png": "assets/eyelid_left_quarter.png",
+        "alpha": "straight"
+      },
+      "eyelid_left_half": {
+        "atlas_xywh": [
+          61,
+          2,
+          58,
+          19
+        ],
+        "target_xy": [
+          209,
+          196
+        ],
+        "source_png": "assets/eyelid_left_half.png",
+        "alpha": "straight"
+      },
+      "eyelid_left_three_quarter": {
+        "atlas_xywh": [
+          2,
+          23,
+          58,
+          26
+        ],
+        "target_xy": [
+          209,
+          196
+        ],
+        "source_png": "assets/eyelid_left_three_quarter.png",
+        "alpha": "straight"
+      },
+      "eyelid_left_closed": {
+        "atlas_xywh": [
+          62,
+          23,
+          60,
+          31
+        ],
+        "target_xy": [
+          207,
+          196
+        ],
+        "source_png": "assets/eyelid_left_closed.png",
+        "alpha": "straight"
+      },
+      "eyelid_right_quarter": {
+        "atlas_xywh": [
+          2,
+          56,
+          45,
+          14
+        ],
+        "target_xy": [
+          290,
+          180
+        ],
+        "source_png": "assets/eyelid_right_quarter.png",
+        "alpha": "straight"
+      },
+      "eyelid_right_half": {
+        "atlas_xywh": [
+          49,
+          56,
+          45,
+          22
+        ],
+        "target_xy": [
+          290,
+          180
+        ],
+        "source_png": "assets/eyelid_right_half.png",
+        "alpha": "straight"
+      },
+      "eyelid_right_three_quarter": {
+        "atlas_xywh": [
+          2,
+          80,
+          45,
+          29
+        ],
+        "target_xy": [
+          290,
+          180
+        ],
+        "source_png": "assets/eyelid_right_three_quarter.png",
+        "alpha": "straight"
+      },
+      "eyelid_right_closed": {
+        "atlas_xywh": [
+          49,
+          80,
+          48,
+          35
+        ],
+        "target_xy": [
+          287,
+          180
+        ],
+        "source_png": "assets/eyelid_right_closed.png",
+        "alpha": "straight"
+      }
+    },
+    "open_state": "no overlay sprite",
+    "optional": true,
+    "decoded_bytes": 44928,
+    "independent_crop_bytes": 29277,
+    "memory_tradeoff": "Atlas simplifies asset binds but uses more uncompressed RGB565+A8 pixels than separate cropped sprites. Prefer separate sprites if RAM-limited."
+  },
+  "character": {
+    "file": "assets/character_pose4_crop.png",
+    "origin_xy": [
+      57,
+      37
+    ],
+    "size": [
+      353,
+      387
+    ],
+    "type": "flattened reference sprite; no independent head bone"
+  },
+  "eye_mask_rects_xywh": {
+    "left": [
+      226,
+      199,
+      31,
+      23
+    ],
+    "right": [
+      296,
+      187,
+      27,
+      23
+    ]
+  },
+  "terminal_rects_xywh": {
+    "left": [
+      225,
+      265,
+      44,
+      39
+    ],
+    "right": [
+      307,
+      265,
+      28,
+      39
+    ]
+  },
+  "head_update": {
+    "mode": "large masked soft warp over hair and face",
+    "head_mask": "assets/head_soft_motion_mask_crop.png",
+    "pivot_xy": [
+      255,
+      258
+    ],
+    "note": "Requires renderer or pre-baked frames. Cannot be implemented as a moving 139x55 eye sprite alone."
+  },
+  "layer_order": [
+    "immutable-stage",
+    "flattened-character",
+    "gaze-adjustments",
+    "eyelid-atlas-sprites",
+    "head-soft-warp",
+    "procedural-terminal-content"
+  ],
+  "refresh_sample": {
+    "file": "source/dirty_rects_5hz.json",
+    "renderer_sample_hz": 5,
+    "tile_size_px": 16,
+    "accuracy": "exact replay versus full composited RGB in desktop test",
+    "mean_dirty_fraction": 0.2904
+  },
+  "proposed_api": [
+    "working_enter_from_idle",
+    "working_update",
+    "working_render",
+    "working_exit_to_idle"
+  ],
+  "not_tested": [
+    "ESP32 FPS",
+    "PSRAM",
+    "flush latency",
+    "BLE interaction",
+    "real phone"
+  ],
+  "renderer_reproduction": {
+    "script": "source/verify_dirty_replay.py",
+    "reference_renderer": "source/v40_reference_renderer.py",
+    "reference_assets": "source/assets/",
+    "dependencies": [
+      "Pillow",
+      "numpy",
+      "opencv-python"
+    ]
+  },
+  "scene_contract": {
+    "scene_key": "working",
+    "aliases": [
+      "thinking",
+      "coding",
+      "working",
+      "思考中",
+      "编程中",
+      "工作中"
+    ],
+    "not_restart_when_switching_aliases": true,
+    "enter_and_exit": "Only when crossing Idle <-> Working scene boundary; instant cut",
+    "source": "2026-11-05 PROJECT_INDEX.md"
+  }
+}
