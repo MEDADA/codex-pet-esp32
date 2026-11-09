@@ -5,3 +5,15 @@
 *.gif filter=lfs diff=lfs merge=lfs -text
 *.webp filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# Legacy assets already stored directly in Git
+/background/codex_pet_background_v5_comparison.jpg -filter -diff -merge -text
+/background/codex_pet_background_v5_motion.mp4 -filter -diff -merge -text
+/coding/codex_pet_working_v46_hair_layers_sheet.jpg -filter -diff -merge -text
+/coding/codex_pet_working_v47_24s.webp -filter -diff -merge -text
+/coding/codex_pet_working_v47_device_candidates_20261106.zip -filter -diff -merge -text
+/coding/codex_pet_working_v47_editable.ora -filter -diff -merge -text
+/coding/codex_pet_working_v47_hair_closeup.jpg -filter -diff -merge -text
+/coding/codex_pet_working_v47_keypose_review.jpg -filter -diff -merge -text
+/coding/codex_pet_working_v47_rig_anchors_466.png -filter -diff -merge -text
+/shared/approved_front_master.png -filter -diff -merge -text
