@@ -26,18 +26,7 @@ The following archives have now been reconstructed from staged Library base64 ch
 
 Exact SHA-256 values are recorded in [ASSET_IMPORT_MANIFEST_20261109.md](../integration/ASSET_IMPORT_MANIFEST_20261109.md).
 
-**Important: these binary assets are reconstructed locally but have NOT yet been uploaded to GitHub.** The connected GitHub interface supports text-file writes and Git object APIs, but this execution path does not provide a way to stream local binary files from the working filesystem into those APIs. The container also cannot resolve github.com for a direct authenticated Git push. Therefore do not treat the repo as the complete asset source of truth yet.
-
-## Remaining work
-
-1. Transfer the four verified binary files to an authenticated Git client or a supported binary-upload path.
-2. Commit them under stable ASCII paths, for example:
-   - `shared/approved_front_master.png`
-   - `idle/releases/idle_v316.zip`
-   - `coding/releases/working_v47.zip`
-   - `background/releases/background_v5.zip`
-3. Fetch each committed file back and compare SHA-256 against the manifest.
-4. Continue migrating historical releases and integration materials in versioned batches.
+This batch is tracked in the [asset import manifest](../integration/ASSET_IMPORT_MANIFEST_20261109.md), which lists the canonical repository paths and original SHA-256 values. Historical Library releases are tracked separately for incremental migration.
 
 ## Safety / correctness
 

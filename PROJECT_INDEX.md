@@ -22,12 +22,12 @@ IDLE ↔ WORKING is an instant scene cut. No walking or turn-around transition. 
 - `integration/`: handoffs, manifests, hashes and integration notes.
 - `docs/`: project-level documentation.
 
-## Latest known candidate pointers (Library snapshot, 2026-11-06)
+## Current candidates (2026-11-09)
 
-- Shared master: `shared/approved_front_master.png`
-- Idle: V3.16 repair review candidate; installed V3.0 remains frozen.
-- Working: V47 art handoff candidate (review; device verification required).
-- Background: V5 review candidate.
+- Shared master: [approved_front_master.png](shared/approved_front_master.png)
+- Idle: [V3.16 repair review candidate](idle/releases/idle_v316.zip); installed V3.0 remains frozen.
+- Working: [V47 art handoff candidate](coding/releases/working_v47.zip) (review; device verification required).
+- Background: [V5 review candidate](background/releases/background_v5.zip).
 - Success: V1 design brief only; not a completed firmware-ready asset.
 
 These are art/integration candidates, not certified firmware releases. The ESP32 firmware, BLE, touch, IMU, state handling and board acceptance are owned by the firmware workstream.
@@ -36,6 +36,6 @@ These are art/integration candidates, not certified firmware releases. The ESP32
 
 All resource paths and filenames must be ASCII. Keep each workstream isolated. Add new versioned candidates; do not overwrite approved or flashed assets. Retain source archives, manifests and SHA-256 checksums. Verify archive CRC and hashes after migration.
 
-## Migration status
+## Handoff and development
 
-See [docs/MIGRATION_STATUS_20261109.md](docs/MIGRATION_STATUS_20261109.md). The full binary Library snapshot has not yet been uploaded; this repository is not yet the complete asset source of truth.
+See the [candidate checksums](integration/ASSET_IMPORT_MANIFEST_20261109.md), [repository workflow](docs/REPOSITORY_WORKFLOW.md), and [firmware branch](https://github.com/MEDADA/codex-pet-esp32/tree/firmware/esp32). Historical Library migration is tracked separately in [migration status](docs/MIGRATION_STATUS_20261109.md).
