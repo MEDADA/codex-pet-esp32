@@ -28,4 +28,4 @@ The intended structure is `shared/`, `idle/`, `coding/`, `background/`, `states/
 
 Please see [docs/IMPORT_FROM_BUNDLE.md](docs/IMPORT_FROM_BUNDLE.md). The tool [tools/import_bundle.sh](tools/import_bundle.sh) is hosted here on GitHub, so it can be read or downloaded without a ChatGPT sandbox link.
 
-**Privacy reminder:** the repository was publicly visible at the time of preparing this README. Before importing the original artwork and complete project history, change repository visibility to **Private** in Settings → General → Danger Zone.
+Repository visibility is currently **Public**, matching the selected project setup. Only publish assets and source materials you have the rights to share.
