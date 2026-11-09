@@ -2,7 +2,7 @@
 
 Firmware for the Waveshare ESP32-S3-Touch-AMOLED-1.75C (466 × 466). The watch shows IDLE and WORKING animations and mirrors CodeIsland status over BLE.
 
-This ESP-IDF project lives on `firmware/esp32`. The art team works on `main`. See [repository layout](docs/repository-layout.md) for file ownership and the asset handoff workflow.
+This ESP-IDF project lives on `firmware/esp32`. The art team works on [`main`](https://github.com/MEDADA/codex-pet-esp32/tree/main). See [repository layout](docs/repository-layout.md) for file ownership and the asset handoff workflow.
 
 Clone the firmware branch and load an ESP-IDF environment. The initial upload was verified with ESP-IDF commit `0d9287800812c95662921c2c5e812023939e3d58`.
 
