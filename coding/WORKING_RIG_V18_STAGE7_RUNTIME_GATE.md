@@ -9,12 +9,13 @@ This is an engineering validation handoff, not a new art revision. Approved Work
 ## Stage 7 package
 - `codex_pet_working_v18_stage7_godot_runtime_gate_20261113.zip` is attached in the related ChatGPT conversation; not committed as a binary to this repository.
 - Adds isolated `rig_v18_stage7_mesh_validation.tscn` (enables 8-mesh Polygon2D pilot; default project main scene unchanged).
-- Adds `verify_stage7.gd` for 46 bones, 19 animation tracks, path resolution, 8 meshes, 3-bone weights, 15 animated hair/tail tracks, terminal scroll and fixed legs/boots.
-- Adds `capture_stage7.gd` for 10 actual Godot viewport PNGs and a contact sheet (must run without `--headless`).
-- Adds source-only `stage7_static_qa.py`, shell runner and visual review checklist.
+- Adds `verify_stage7.gd` for 46 bones, 19 animation tracks, path resolution, 8 meshes, skeleton/bone paths, normalized 3-bone weights, 15 animated hair/tail tracks, terminal scroll and fixed legs/boots.
+- Adds `capture_stage7.gd` for 10 actual Godot viewport PNGs and a contact sheet (must run without `--headless`). Terminal scroll is sampled at the same timeline timestamp using a test-only manual-time switch; normal runtime remains unchanged.
+- Adds source-only `stage7_static_qa.py`, shell runner, CPU-only Stage 6 reference preview and visual review checklist.
+- ZIP SHA-256: `e8932f6dd31a3276fb1e0b0a2baf584c83a3cb539328d067c27e19354e0a6c2a`.
 
 ## Verified in authoring environment
-- 13 Stage 7 source preflight checks PASS: ASCII paths, 25 external resources resolve, 46 bones, 19 track paths resolve, 20s loop, probe scene enables mesh, default main scene unchanged, 8 mesh specs, Polygon2D-relative skeleton/bone paths, rest-pose weights, separate terminal scroll script, planted leg tracks.
+- 15 Stage 7 source preflight checks PASS: ASCII paths, 25 external resources resolve, 46 bones, 19 track paths resolve, 20s loop, probe scene enables mesh, default main scene unchanged, 8 mesh specs, Polygon2D-relative skeleton/bone paths, rest-pose weights, separate terminal scroll script, deterministic terminal capture, runtime track checks, planted leg tracks.
 - Existing static art check PASS: approved 466x466 neutral composite has 0 differing pixels against V45 master.
 - Existing independent NumPy geometry check PASS: 8 meshes, 893 vertices, 1482 triangles, 15 mid/tip/tail tracks influence vertices, no sampled triangle inversion.
 - Existing `stage3_track_qa.py` still reports 15 tracks inactive in the **default unmeshed scene**; Stage 7 probe deliberately enables the mesh pilot. This is a known scene-mode distinction, not a passed Godot runtime result.
