@@ -1,6 +1,6 @@
 # Codex Pet — Project Index
 
-Updated: 2026-11-09
+Updated: 2026-11-13
 Target: Waveshare ESP32-S3, 466×466 round AMOLED.
 
 ## Authoritative scene contract
@@ -22,11 +22,12 @@ IDLE ↔ WORKING is an instant scene cut. No walking or turn-around transition. 
 - `integration/`: handoffs, manifests, hashes and integration notes.
 - `docs/`: project-level documentation.
 
-## Current candidates (2026-11-09)
+## Current candidates (2026-11-13)
 
 - Shared master: [approved_front_master.png](shared/approved_front_master.png)
 - Idle: [V3.16 repair review candidate](idle/releases/idle_v316.zip); installed V3.0 remains frozen.
 - Working: [V47 art handoff candidate](coding/releases/working_v47.zip) (review; device verification required).
+- Working Rig: [V1.8 Stage 7 Godot runtime gate](coding/WORKING_RIG_V18_STAGE7_RUNTIME_GATE.md). This is a validation handoff, **not** a Godot-runtime-passed or device-ready release. The Stage 7 ZIP is attached in the related ChatGPT conversation; it has not been committed as a GitHub binary.
 - Background: [V5 review candidate](background/releases/background_v5.zip).
 - Success: V1 design brief only; not a completed firmware-ready asset.
 
