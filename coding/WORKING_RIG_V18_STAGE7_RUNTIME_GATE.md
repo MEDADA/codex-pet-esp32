@@ -7,7 +7,7 @@ Status: **SOURCE_PREFLIGHT_PASS / GODOT_RUNTIME_NOT_EXECUTED / VISUAL_SIGNOFF_PE
 This is an engineering validation handoff, not a new art revision. Approved Working V1.8 timing, blink/gaze, hair rhythm, planted legs and V40 terminal scroll remain the reference. IDLE V3.0 and installed WORKING are untouched.
 
 ## Stage 7 package
-- `codex_pet_working_v18_stage7_godot_runtime_gate_20261113.zip` is attached in the related ChatGPT conversation; not committed as a binary to this repository.
+- `codex_pet_working_v18_stage7_godot_runtime_gate_20261113.zip` (15 MB) is attached in the related ChatGPT conversation; **not committed as a binary to this repository**. SHA-256: `3f77b9e7441dd9c7489723172101618b56c34ae7575eb415d25f430207d5875c`. The available GitHub connector supports text-file commits but has no binary/release-asset upload operation in this session.
 - Adds isolated `rig_v18_stage7_mesh_validation.tscn` (enables 8-mesh Polygon2D pilot; default project main scene unchanged).
 - Adds `verify_stage7.gd` for 46 bones, 19 animation tracks, path resolution, 8 meshes, skeleton/bone paths, normalized 3-bone weights, 15 animated hair/tail tracks, terminal scroll and fixed legs/boots.
 - Adds `capture_stage7.gd` for 10 actual Godot viewport PNGs and a contact sheet (must run without `--headless`). Terminal scroll is sampled at the same timeline timestamp using a test-only manual-time switch; normal runtime remains unchanged.
