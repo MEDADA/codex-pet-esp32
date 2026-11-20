@@ -1,19 +1,77 @@
-# Codex Pet ESP32 协作规范
+# Repository Workflow
 
-本次整理分三步执行。先对照现有目录与交接清单，将三个候选包按版本归档。随后同步两个分支的入口及接入流程。最后从 GitHub 下载文件，核对分支、路径和 SHA-256。
+This document defines how artwork, animation candidates, and integration handoffs are added to the repository without breaking existing device builds.
 
-| 路径 | 维护内容 |
+## Module boundaries
+
+| Path | Maintained content |
 | --- | --- |
-| `shared/` | 已批准的角色母图和共用参考 |
-| `idle/releases/` | IDLE 版本归档 |
-| `coding/releases/` | WORKING 版本归档，兼容历史目录名 `coding` |
-| `background/releases/` | 背景与光效版本归档 |
-| `states/` | SUCCESS 等短反馈的设计 |
-| `integration/` | 美术与固件的交接、校验值和验收资料 |
-| `docs/`、`history/` | 项目规范、迁移记录和历史索引 |
+| `shared/` | Approved character master and shared references |
+| `idle/` | IDLE artwork and versioned candidates |
+| `coding/` | WORKING artwork, rigs, previews, and versioned candidates |
+| `background/` | Shared background and lighting |
+| `states/` | One-shot events such as SUCCESS |
+| `integration/` | Handoffs, manifests, checksums, and integration notes |
+| `docs/`, `history/` | Policies, architecture, and historical records |
 
-美术候选使用 ASCII 版本化文件名，ZIP 等二进制走 Git LFS。每次交接记录所属模块、版本、路径、SHA-256 和已知问题。新版本另加文件，旧路径供既有交接引用。共享母图的替换按单独变更处理。
+## Branching and review
 
-固件接入以固定的美术提交和文件校验值为输入。转换产物、构建配置、测试与实机记录归入 `firmware/esp32`。验收记录标明试烧镜像、涉及的分区、回退版本以及尚待确认的项目。美术候选、固件试烧和实机验收通过分别记录。
+- Keep `main` as the stable, documented asset baseline.
+- Make structural cleanup and multi-file changes on a dedicated branch.
+- Use focused commits with imperative messages.
+- Review binary additions, deletions, and LFS pointer changes explicitly.
+- Merge only after links, manifests, and release status have been checked.
 
-运行时维持 IDLE 和 WORKING 两个持续场景。Thinking 与 Coding 共用 WORKING，别名切换保持动画进度。SUCCESS 作为短反馈。完整约定见[项目索引](../PROJECT_INDEX.md)。
+## Asset naming
+
+- Use ASCII-only paths and filenames.
+- Prefer `<module>_<version>_<purpose>.<ext>` for new versioned assets.
+- Keep source files, preview files, QA evidence, and release packages distinguishable.
+- Do not silently replace an existing versioned file.
+
+## Required handoff metadata
+
+Every candidate intended for integration should provide:
+
+- Module and version.
+- Review status and date.
+- Canonical repository path(s).
+- SHA-256 for distributable archives and important binary assets.
+- Display dimensions and frame/timing information where relevant.
+- Known limitations and unverified assumptions.
+- Explicit statement of whether device validation has passed.
+
+## Acceptance gates
+
+Track these separately:
+
+1. Art candidate.
+2. Art accepted by the project owner.
+3. Integration candidate.
+4. Target-device verified.
+5. Installed baseline.
+
+A preview or successful desktop render is not evidence of ESP32 performance, memory use, or hardware acceptance.
+
+## Scene contract
+
+There are two persistent scenes: IDLE and WORKING. Thinking and Coding are aliases of WORKING. SUCCESS is a one-shot event. Scene aliases must not create duplicate animation timelines.
+
+## Binary asset handling
+
+Git LFS is configured for common binary formats. After adding or moving LFS-managed files:
+
+1. Confirm the Git LFS object exists.
+2. Pull the object in a clean clone.
+3. Verify archive CRC where applicable.
+4. Verify the SHA-256 recorded in the manifest.
+5. Confirm preview and handoff links resolve.
+
+A small pointer file in the Git tree is expected for LFS-managed content; it is not the binary payload.
+
+## Safety rules
+
+- Never overwrite installed IDLE V3.0 or approved shared masters without explicit approval.
+- Never delete a historical artifact solely because a newer version exists.
+- Never claim a package is available based only on a release note; verify the actual file and LFS object.
+- Keep firmware implementation and device acceptance under the firmware workstream.
