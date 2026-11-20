@@ -1,0 +1,35 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary exports and local previews
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Python tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Build and generated output
+build/
+dist/
+out/
+.cache/
+.tmp/
+temp/
+tmp/
+
+# Keep intentional release assets and source artwork tracked.
+!**/releases/
+!**/*.ora

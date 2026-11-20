@@ -1,42 +1,71 @@
 # Codex Pet — Project Index
 
-Updated: 2026-11-13
-Target: Waveshare ESP32-S3, 466×466 round AMOLED.
+Updated: 2026-11-20  
+Target: Waveshare ESP32-S3, 466 × 466 round AMOLED.
 
-## Authoritative scene contract
+This file is the canonical status index. When a release note conflicts with this index, use the release note for technical detail and this index for current project status.
 
-There are exactly TWO persistent visual scenes:
+## Scene contract
 
-- **IDLE**: idle / standby. One persistent idle scene.
-- **WORKING**: thinking / coding / working. All aliases use the same visual scene and animation; changing aliases must not restart the animation.
+There are exactly **two persistent visual scenes**:
 
-IDLE ↔ WORKING is an instant scene cut. No walking or turn-around transition. SUCCESS is a one-shot event/overlay, not a third persistent scene.
+- **IDLE** — standby / idle.
+- **WORKING** — thinking / coding / working. These are aliases of one scene and must not restart the animation when the label changes.
+
+IDLE ↔ WORKING is an instant scene cut. No walking or turn-around transition is required. **SUCCESS** is a one-shot event/overlay, not a third persistent scene.
 
 ## Module ownership
 
-- `shared/`: immutable approved character master, shared stage and conventions.
-- `idle/`: Idle-only art and animation. Installed Idle V3.0 is frozen; never overwrite it.
-- `coding/`: WORKING scene character, expression, terminals and animation. Thinking is an alias.
-- `background/`: shared stage and lighting effects only.
-- `states/`: one-shot event concepts such as SUCCESS; not persistent scenes.
-- `integration/`: handoffs, manifests, hashes and integration notes.
-- `docs/`: project-level documentation.
+| Path | Responsibility |
+| --- | --- |
+| `shared/` | Immutable approved character master and shared conventions |
+| `idle/` | IDLE-only artwork and animation |
+| `coding/` | WORKING-scene character, expressions, terminals, and animation |
+| `background/` | Shared stage, background, and lighting |
+| `states/` | One-shot event concepts such as SUCCESS |
+| `integration/` | Handoffs, manifests, hashes, and integration notes |
+| `docs/` | Project-level documentation and policies |
+| `history/` | Historical indexes and migration records |
 
-## Current candidates (2026-11-13)
+## Current asset status
 
-- Shared master: [approved_front_master.png](shared/approved_front_master.png)
-- Idle: [V3.16 repair review candidate](idle/releases/idle_v316.zip); installed V3.0 remains frozen.
-- Working: [V47 art handoff candidate](coding/releases/working_v47.zip) (review; device verification required).
-- Working Rig: [V1.8 Stage 7 Godot runtime gate](coding/WORKING_RIG_V18_STAGE7_RUNTIME_GATE.md). This is a validation handoff, **not** a Godot-runtime-passed or device-ready release. The Stage 7 ZIP is attached in the related ChatGPT conversation; it has not been committed as a GitHub binary.
-- Background: [V5 review candidate](background/releases/background_v5.zip).
-- Success: V1 design brief only; not a completed firmware-ready asset.
+| Module | Version | Status | Important note |
+| --- | --- | --- | --- |
+| Shared master | `approved_front_master.png` | Approved baseline | Do not replace without explicit review |
+| IDLE | V3.0 | Installed / frozen | Existing device baseline; never overwrite |
+| IDLE | V3.16 | Review candidate | Not a replacement for installed V3.0 |
+| WORKING | V45/V46 | Historical approved art baseline | Preserve as rollback/reference material |
+| WORKING | V47 | Review/integration candidate | Device verification and user acceptance are separate gates |
+| WORKING | V49 | Art review only | Release notes are in GitHub; package was not included in this repository snapshot |
+| WORKING | V50 | Latest documented art review candidate | Package is external to this repository snapshot; not device-certified |
+| Background | V5 | Review candidate | Not measured on actual ESP32 |
+| SUCCESS | V1 specification | Design brief | Not a completed firmware-ready asset |
 
-These are art/integration candidates, not certified firmware releases. The ESP32 firmware, BLE, touch, IMU, state handling and board acceptance are owned by the firmware workstream.
+The existence of a release note does not mean its binary package is present in this repository. Check the exact path and Git LFS object before handing a package to Codex.
+
+## Release and acceptance gates
+
+1. **Art candidate** — source, preview, and release notes exist.
+2. **Art accepted** — visual review explicitly passed.
+3. **Integration candidate** — manifest, conversion assumptions, and handoff are complete.
+4. **Device verified** — target-board memory, frame rate, rendering, and interaction checks have evidence.
+5. **Installed baseline** — explicitly recorded as deployed; immutable unless a new version is accepted.
+
+Do not collapse these statuses into a single "release" label.
 
 ## Integrity and versioning
 
-All resource paths and filenames must be ASCII. Keep each workstream isolated. Add new versioned candidates; do not overwrite approved or flashed assets. Retain source archives, manifests and SHA-256 checksums. Verify archive CRC and hashes after migration.
+- All resource paths and filenames must be ASCII.
+- Keep workstreams isolated; add new versions rather than overwriting approved assets.
+- Retain editable sources, release notes, manifests, and SHA-256 checksums where available.
+- Validate Git LFS objects and archive CRC before declaring a package downloadable.
+- Firmware, BLE, touch, IMU, state handling, and board acceptance belong to the firmware workstream.
 
-## Handoff and development
+## Entry points
 
-See the [candidate checksums](integration/ASSET_IMPORT_MANIFEST_20261109.md), [repository workflow](docs/REPOSITORY_WORKFLOW.md), and [firmware branch](https://github.com/MEDADA/codex-pet-esp32/tree/firmware/esp32). Historical Library migration is tracked separately in [migration status](docs/MIGRATION_STATUS_20261109.md).
+- [Repository README](README.md)
+- [Repository workflow](docs/REPOSITORY_WORKFLOW.md)
+- [File management policy](docs/FILE_MANAGEMENT.md)
+- [Animation rig architecture](docs/ANIMATION_RIG_ARCHITECTURE_V1.md)
+- [Asset import manifest](integration/ASSET_IMPORT_MANIFEST_20261109.md)
+- [Firmware branch](https://github.com/MEDADA/codex-pet-esp32/tree/firmware/esp32)
